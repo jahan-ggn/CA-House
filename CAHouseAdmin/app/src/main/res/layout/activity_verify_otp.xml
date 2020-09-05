@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.tjg.cahouseadmin.Activities.VerifyOTPActivity">
+
+    <TextView
+        android:id="@+id/tvOtpMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorAccent"
+        android:text="We have sent you access code via SMS for mobile number verification"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtOTP"
+            android:maxLength="6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/password_icon"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Enter OTP"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="16sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:text="BACK"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"
+            android:text="CHANGE PASSWORD"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
+

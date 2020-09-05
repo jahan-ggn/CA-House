@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tjg.cahouseclient">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+
+    <application
+        android:name=".Network.VolleyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="CA House Client"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.ChangePasswordActivity"
+            android:label="Change Password" />
+        <activity
+            android:name=".Activities.DashboardActivity"
+            android:label="Dashboard" />
+        <activity
+            android:name=".Activities.NewsActivity"
+            android:label="News" />
+        <activity
+            android:name=".Activities.DocumentsActivity"
+            android:label="Documents" />
+        <activity
+            android:name=".Activities.UploadActivity"
+            android:label="Upload Document" />
+        <activity
+            android:name=".Activities.AddRequestActivity"
+            android:label="Request Document" />
+        <activity
+            android:name=".Activities.UpdateProfileActivity"
+            android:label="Update Profile" />
+        <activity
+            android:name=".Activities.ForumQuestionActivity"
+            android:label="Forum Questions" />
+        <activity
+            android:name=".Activities.FeedbackActivity"
+            android:label="Feedback" />
+        <activity
+            android:name=".Activities.ForumAnswerActivity"
+            android:label="Forum Answers"/>
+        <activity
+            android:name=".Activities.GetOTPActivity"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".Activities.VerifyOTPActivity"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".Activities.ForgotPasswordActivity"
+            android:label="Forgot Password" />
+
+        <service android:name=".JavaFiles.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".JavaFiles.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Activities.FetchDataActivity"
+            android:label="Uploaded Document"/>
+        <activity android:name=".Activities.RequestActivity"
+            android:label="Requests"></activity>
+    </application>
+
+</manifest>

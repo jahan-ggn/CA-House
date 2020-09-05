@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1060415405545",
+    "firebase_url": "https://cahouse-4e132.firebaseio.com",
+    "project_id": "cahouse-4e132",
+    "storage_bucket": "cahouse-4e132.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060415405545:android:ad91d860fbd62c9a",
+        "android_client_info": {
+          "package_name": "com.example.tjg.cahouseadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060415405545-d4ej3f1pkl8d8lu3nhoqlhtopql5lkq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTWf8HVPy97ZSpKSYdRzZyHbbJGGs0-TM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060415405545:android:acfb5cc2f55ee015",
+        "android_client_info": {
+          "package_name": "com.example.tjg.cahouseclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060415405545-d4ej3f1pkl8d8lu3nhoqlhtopql5lkq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTWf8HVPy97ZSpKSYdRzZyHbbJGGs0-TM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

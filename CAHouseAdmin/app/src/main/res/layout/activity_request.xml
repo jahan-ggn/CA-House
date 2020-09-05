@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbPending"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pending"
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/rbFulfilled"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fulfilled"
+            android:textSize="16sp"/>
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/lvClientRequestedDocuments"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" />
+
+</RelativeLayout>

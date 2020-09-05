@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CA House Admin</string>
+
+    <string name="vertical_ellipsis">&#8942;</string>
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+</resources>
